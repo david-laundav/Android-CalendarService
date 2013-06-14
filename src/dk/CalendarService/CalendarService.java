@@ -19,6 +19,8 @@ import android.text.format.DateUtils;
  * 
  * Please do not delete the references as they gave inspiration for the implementation
  * 
+ * Created by David Laundav and Christian Orthmann
+ * 
  */
 
 public class CalendarService {
@@ -148,3 +150,7 @@ public class CalendarService {
 		
 	}
 }
+
+/* 
+ * Created by David Laundav and Christian Orthmann
+ */

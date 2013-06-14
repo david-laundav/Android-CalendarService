@@ -2,6 +2,10 @@ package dk.CalendarService;
 
 import java.util.Date;
 
+/* 
+ * Created by David Laundav and Christian Orthmann
+ */
+
 public class CalendarEvent implements Comparable<CalendarEvent>{
 	
 	private String title;
@@ -63,3 +67,7 @@ public class CalendarEvent implements Comparable<CalendarEvent>{
 	}
 
 }
+
+/* 
+ * Created by David Laundav and Christian Orthmann
+ */
