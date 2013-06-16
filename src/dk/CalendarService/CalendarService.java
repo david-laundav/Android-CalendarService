@@ -21,7 +21,6 @@ import android.text.format.DateUtils;
  * 
  * Created by David Laundav and contributed by Christian Orthmann
  * Copyright [2013] [David Laundav]
- * 
  */
 
 public class CalendarService {
