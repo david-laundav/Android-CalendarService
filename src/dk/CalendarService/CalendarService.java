@@ -19,7 +19,7 @@ import android.text.format.DateUtils;
  * 
  * Please do not delete the references as they gave inspiration for the implementation
  * 
- * Created by David Laundav and Christian Orthmann
+ * Created by David Laundav and contributed by Christian Orthmann
  * Copyright [2013] [David Laundav]
  * 
  */
