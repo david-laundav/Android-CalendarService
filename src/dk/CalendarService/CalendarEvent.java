@@ -4,6 +4,7 @@ import java.util.Date;
 
 /* 
  * Created by David Laundav and Christian Orthmann
+ * Copyright 2013 David Laundav
  */
 
 public class CalendarEvent implements Comparable<CalendarEvent>{
@@ -67,7 +68,3 @@ public class CalendarEvent implements Comparable<CalendarEvent>{
 	}
 
 }
-
-/* 
- * Created by David Laundav and Christian Orthmann
- */
