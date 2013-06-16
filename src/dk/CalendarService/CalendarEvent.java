@@ -4,7 +4,7 @@ import java.util.Date;
 
 /* 
  * Created by David Laundav and Christian Orthmann
- * Copyright 2013 David Laundav
+ * Copyright [2013] [David Laundav]
  */
 
 public class CalendarEvent implements Comparable<CalendarEvent>{
