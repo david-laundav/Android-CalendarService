@@ -3,7 +3,7 @@ package dk.CalendarService;
 import java.util.Date;
 
 /* 
- * Created by David Laundav and Christian Orthmann
+ * Created by David Laundav and contributed by Christian Orthmann
  * Copyright [2013] [David Laundav]
  */
 
