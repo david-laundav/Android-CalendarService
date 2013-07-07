@@ -24,6 +24,10 @@ CalendarService.readCalendar(class.this, 2, 5)
 
 This would provide you +/- 2 days and +/- 5 hours respectively.
 
+Constraints
+---
+Due to the [changes in the API in Android 4.0](http://android-developers.blogspot.dk/2011/10/ics-and-non-public-apis.html) (Ice Cream Sandwich), this service cannot be utilised with APIs including and above API 4.0
+
 License
 ---
 Licensed under the [Apache License, Version 2.0] (http://www.apache.org/licenses/LICENSE-2.0.html)
