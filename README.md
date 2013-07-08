@@ -26,7 +26,12 @@ This would provide you +/- 2 days and +/- 5 hours respectively.
 
 Constraints
 ---
-Due to the [changes in the API in Android 4.0](http://android-developers.blogspot.dk/2011/10/ics-and-non-public-apis.html) (Ice Cream Sandwich), this service cannot be utilised with APIs including and above API 4.0
+Due to the [changes in the API in Android 4.0](http://android-developers.blogspot.dk/2011/10/ics-and-non-public-apis.html) (Ice Cream Sandwich), this service can only be utilised by using a different cursor for API 4.0+.
+The cursor has been commented, but can simply be used by uncommenting the code block in the CalendarService.java class.
+
+Credits
+---
+Thanks to [SLEEPLisNight](https://github.com/SLEEPLisNight) for finding a solution for the API 4.0 issue.
 
 License
 ---
