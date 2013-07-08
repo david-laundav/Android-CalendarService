@@ -51,9 +51,18 @@ public class CalendarService {
 		
 		ContentResolver contentResolver = context.getContentResolver();
 		 
-		// Create a cursor and read from the calendar
+		// Create a cursor and read from the calendar (for Android API below 4.0)
 		final Cursor cursor = contentResolver.query(Uri.parse("content://com.android.calendar/calendars"),
 		        (new String[] { "_id", "displayName", "selected" }), null, null, null);
+		
+		/*
+		* Use the cursor below for Android API 4.0+ (Thanks to SLEEPLisNight)
+		*
+		* Cursor cursor = contentResolver.query(Uri.parse("content://com.android.calendar/events"), 
+		* new String[]{ "calendar_id", "title", "description", "dtstart", "dtend", "eventLocation" }, 
+		* null, null, null);
+		*
+		*/
 		
 		// Create a set containing all of the calendar IDs available on the phone
 		HashSet<String> calendarIds = getCalenderIds(cursor);
